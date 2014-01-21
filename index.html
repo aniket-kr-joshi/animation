@@ -31,6 +31,15 @@
 		(function()
 		{
 			i1 = document.getElementById("image");
+			imgObj = document.getElementById('myImage'); 
+			imgObj.style.position='absolute';
+			imgObj.style.left='10px' ;
+			imgObj.style.top=parseInt(window.innerHeight/3)+'px';
+			imgObj.style.right='15px';
+			imgObj.style.bottom=parseInt(window.innerHeight/3)+10+'px';
+			imgObj.style.height='10px';
+			imgObj.style.width='15px';
+			t=1;l=3;s=1;
 			i1.onclick = changeimage();
 		})();
 	</script>
