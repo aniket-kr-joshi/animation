@@ -1,7 +1,10 @@
 <html>
 	<head>
 		<title>JavaScript Animation</title>
+<<<<<<< HEAD
 		<script src="script.js"></script>
+=======
+>>>>>>> css
 		<style>
 			#image
 			{
