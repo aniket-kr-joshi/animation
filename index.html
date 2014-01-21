@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>JavaScript Animation</title>
+		<script src="script.js"></script>
 		<style>
 			#image
 			{
@@ -26,6 +27,13 @@
 		</div>
 		
 	</body>
+	<script>
+		(function()
+		{
+			i1 = document.getElementById("image");
+			i1.onclick = changeimage();
+		})();
+	</script>
 	
 
 	
