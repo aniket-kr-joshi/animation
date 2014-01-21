@@ -1,7 +1,19 @@
 <html>
 	<head>
 		<title>JavaScript Animation</title>
-		
+		<style>
+			#image
+			{
+				top:0px;
+				left:0px;				
+				height:30px;
+				width:30px;
+				position:absolute;
+				top:0; bottom:0; left:0; right:0;
+				margin:auto;
+			}
+						
+		</style>
 				
 	</head>
 	<body>
