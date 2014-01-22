@@ -2,6 +2,7 @@
 	<head>
 		<title>JavaScript Animation</title>
 		<script src="script.js"></script>
+		<script src="jquery.js"></script>
 		<style>
 			#image
 			{
@@ -32,20 +33,13 @@
 		
 	</body>
 	<script>
+		$(document).ready
 		(function()
 		{
-			i1 = document.getElementById("image");
-			imgObj = document.getElementById('myImage'); 
-			imgObj.style.position='absolute';
-			imgObj.style.left='10px' ;
-			imgObj.style.top=parseInt(window.innerHeight/3)+'px';
-			imgObj.style.right='15px';
-			imgObj.style.bottom=parseInt(window.innerHeight/3)+10+'px';
-			imgObj.style.height='10px';
-			imgObj.style.width='15px';
+			$("#myImage").css({position:'absolute', left:'10px', top:parseInt(window.innerHeight/3)+'px', right:'15px', bottom:parseInt(window.innerHeight/3)+10+'px', height:'10px',width:'15px' })
 			t=1;l=3;s=1;
-			i1.onclick = changeimage();
-		})();
+			$("#image").click(changeimage());
+		});
 	</script>
 	
 
