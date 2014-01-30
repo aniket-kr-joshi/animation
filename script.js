@@ -27,12 +27,12 @@ function motion(){
 		height: parseInt($('#myImage').css('height'))+ s+'px', width: parseInt($('#myImage').css('width'))+ s+'px'});
 
 	if(parseInt($('#myImage').css('right')) <= window.innerWidth-10 && parseInt($('#myImage').css('bottom')) <= window.innerHeight-10 && 
-	parseInt($('#myImage').css('top')) >=10  &&  parseInt($('#myImage').css('left')) >= 10 && parseInt($('#myImage').css('height')) >=10)
+	parseInt($('#myImage').css('top')) >=10  &&  parseInt($('#myImage').css('left')) >= 10 && parseInt($('#myImage').css('height')) >=1)
 	{					
 		animate = setTimeout(motion,10); // call moveRight in 20msec
    	}
 	else if(parseInt($('#myImage').css('bottom')) > window.innerHeight-10 || parseInt($('#myImage').css('top')) <10 || 
-	parseInt($('#myImage').css('height')) <10)
+	parseInt($('#myImage').css('height')) <1)
 	{
 		s*=(-1);t*=(-1);
 		animate = setTimeout(motion,10);

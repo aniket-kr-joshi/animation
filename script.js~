@@ -1,7 +1,7 @@
 //globle variable
 var animate ;
-var onImg= "file:///home/aniket/dust/020.png";
-var offImg= "file:///home/aniket/dust/021.png";
+var onImg= "020.png";
+var offImg= "021.png";
 function changeimage()
 {
 	return function()
